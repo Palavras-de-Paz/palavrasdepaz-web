@@ -1,4 +1,5 @@
-import { Button, Container, Nav, Navbar,  Offcanvas } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar, Offcanvas, Stack } from 'react-bootstrap';
+import Image from "next/image";
 
 function OffcanvasExample() {
   return (
@@ -7,14 +8,9 @@ function OffcanvasExample() {
         {['xl'].map((expand) => (
           <Navbar key={expand} bg="light" expand={expand} className="mb-3">
             <Container fluid>
-              <container className="header">
-                <div>
-                  <img src="/images/logo.png" alt="logo-header" />
-                </div>
-                <div>
-                  <img src="/images/palavras.png" alt="texto-header" />
-                </div>
-              </container>
+              <div className='logo-header'>
+              <Image  src="/images/logo.png" alt="logo-header" width="337px" height="156px"  />
+              </div>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
               <Navbar.Offcanvas
                 id={`offcanvasNavbar-expand-${expand}`}
@@ -27,7 +23,7 @@ function OffcanvasExample() {
                   </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                  <Nav className="justify-content-end flex-grow-1 pe-3">
+                  <Nav id='buttons-header' className="justify-content-center  flex-grow-1 pe-3" >
                     <Nav.Link href="#action1">Quem Somos</Nav.Link>
                     <Nav.Link href="#action2">O Programa</Nav.Link>
                     <Nav.Link href="#action2">Voluntários</Nav.Link>
