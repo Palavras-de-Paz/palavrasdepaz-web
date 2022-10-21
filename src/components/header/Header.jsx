@@ -1,4 +1,4 @@
-import { Button, Container, Nav, Navbar, Offcanvas, Stack } from 'react-bootstrap';
+import { Container, Nav, Navbar, Offcanvas, Stack } from 'react-bootstrap';
 import Image from "next/image";
 
 function OffcanvasExample() {
@@ -41,5 +41,3 @@ function OffcanvasExample() {
 }
 
 export default OffcanvasExample;
-
-
