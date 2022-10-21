@@ -9,7 +9,7 @@ function Header() {
           <Navbar key={expand} bg="light" expand={expand} className="mb-3">
             <Container fluid>
               <div className='logo-header'>
-              <Image  src="/images/logo.png" alt="logo-header" width="337px" height="156px"  />
+              <Image  src="/static/images/logo.png" alt="logo-header" width="337px" height="156px"  />
               </div>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
               <Navbar.Offcanvas
