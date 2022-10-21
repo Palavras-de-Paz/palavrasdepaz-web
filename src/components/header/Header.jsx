@@ -1,7 +1,7 @@
 import { Container, Nav, Navbar, Offcanvas, Stack } from 'react-bootstrap';
 import Image from "next/image";
 
-function OffcanvasExample() {
+function Header() {
   return (
     <>
       <container className="styles-header">
@@ -40,4 +40,4 @@ function OffcanvasExample() {
   );
 }
 
-export default OffcanvasExample;
+export default Header;
