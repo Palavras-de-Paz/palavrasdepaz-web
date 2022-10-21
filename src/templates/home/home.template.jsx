@@ -7,6 +7,10 @@ export default function HomeTemplate() {
     <>
       <Header/>
       {/* criar componente box e swiper */}
+      {/* cards */}
+       {/* texto */}
+       {/* swiper */}
+      {/* footer */}
     </>
   )
 }
