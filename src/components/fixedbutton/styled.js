@@ -12,4 +12,8 @@ export const FixedBtn = styled.a`
     padding: 16px 32px;
     z-index: 2;
     font-size: 24px;
+    cursor: pointer;
+    &:hover {
+        color: #fff
+    }
 `
