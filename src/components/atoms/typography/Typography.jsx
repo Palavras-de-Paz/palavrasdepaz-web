@@ -31,8 +31,8 @@ const Typography = ({
             fontWeight={fontWeight}
             fontSize={fontSize}
             lineHeight={lineHeight}
-            letter-spacing={spacing}
-            text-align={textAlign}
+            letterSpacing={spacing}
+            textAlign={textAlign}
         >
             {props.text}
         </S.Typography>
