@@ -2,21 +2,21 @@ import styled, { css } from "styled-components";
 
 export const Box = styled.div`
   ${({
-    bg,
-    width,
-    justify,
-    align,
-    height,
-    direction,
-    shadow,
-    color,
-    margin,
-    padding,
-    position,
-    gap,
-    radius,
-    textAlign,
-    flexWrap
+  bg,
+  width,
+  justify,
+  align,
+  height,
+  direction,
+  shadow,
+  color,
+  margin,
+  padding,
+  position,
+  gap,
+  radius,
+  textAlign,
+  flexWrap
 }) => css`
     background-color: ${bg};
     width: ${width};
@@ -34,5 +34,6 @@ export const Box = styled.div`
     border-radius: ${radius};
     gap: ${gap};
     text-align: ${textAlign};
+    z-index: 3;
   `}
 `;
