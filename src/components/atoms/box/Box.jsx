@@ -1,8 +1,7 @@
 import * as S from "./styled";
 
 const Box = ({
-    bg,
-    wrap,
+    bg,  
     width,
     justify,
     align,
@@ -17,6 +16,7 @@ const Box = ({
     radius,
     gap,
     textAlign,
+    flexWrap
 }) => {
     return (
         <S.Box
@@ -30,11 +30,11 @@ const Box = ({
             align={align}
             direction={direction}
             shadow={shadow}
-            flex-wrap={wrap}
             position={position}
             gap={gap}
             radius={radius}
-            text-align={textAlign}
+            textAlign={textAlign}
+            flexWrap={flexWrap}
         >
             {children}
         </S.Box>

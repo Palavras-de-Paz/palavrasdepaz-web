@@ -3,7 +3,6 @@ import styled, { css } from "styled-components";
 export const Box = styled.div`
   ${({
     bg,
-    wrap,
     width,
     justify,
     align,
@@ -17,12 +16,13 @@ export const Box = styled.div`
     gap,
     radius,
     textAlign,
+    flexWrap
 }) => css`
     background-color: ${bg};
     width: ${width};
     height: ${height};
     display: flex;
-    flex-wrap: ${wrap};
+    flex-wrap: ${flexWrap};
     flex-direction: ${direction};
     justify-content: ${justify};
     align-items: ${align};
