@@ -4,7 +4,6 @@ import "../styles/footer/index.css"
 import "../styles/globalstyles.css"
 import "../styles/swiper/index.css"
 
-
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
