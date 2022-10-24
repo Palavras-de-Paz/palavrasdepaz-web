@@ -12,7 +12,7 @@ import FixedButton from '../../components/fixedbutton/FixedButton'
 
 export default function HomeTemplate() {
   return (
-    <>
+    <div className="animate__animated animate__fadeIn animate__delay-1s">
       <Header />
 
       <CarouselSlide />
@@ -47,6 +47,6 @@ quando as pessoas tiverem paz interior, o mundo estará em paz.´´"/>
 
       <FixedButton />
       <Footer />
-    </>
+    </div>
   )
 }

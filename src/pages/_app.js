@@ -3,6 +3,7 @@ import "../styles/header/index.css"
 import "../styles/footer/index.css"
 import "../styles/globalstyles.css"
 import "../styles/swiper/index.css"
+import 'animate.css';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
