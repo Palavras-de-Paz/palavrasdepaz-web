@@ -1,6 +1,7 @@
 import { Container, Nav, Navbar, Offcanvas, Stack } from 'react-bootstrap';
 import Image from "next/image";
 import Logo from '../../../public/static/images/logo.png'
+import Link from 'next/link';
 
 function Header() {
   return (
@@ -9,8 +10,10 @@ function Header() {
         {['xl'].map((expand) => (
           <Navbar key={expand} bg="light" expand={expand} className="mb-3">
             <Container fluid>
-              <div className='logo-header'>
-              <Image  src={Logo} alt="logo-header" width="337px" height="156px"  />
+              <div className='logo-header' >
+                <Link href="/">
+                  <Image style={{ cursor: 'pointer', padding: '400px'}} src={Logo} alt="logo-header" width="337px" height="156px" />
+                </Link>
               </div>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
               <Navbar.Offcanvas
