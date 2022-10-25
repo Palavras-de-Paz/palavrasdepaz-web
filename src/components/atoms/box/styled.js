@@ -2,26 +2,27 @@ import styled, { css } from "styled-components";
 
 export const Box = styled.div`
   ${({
-    bg,
-    wrap,
-    width,
-    justify,
-    align,
-    height,
-    direction,
-    shadow,
-    color,
-    margin,
-    padding,
-    position,
-    gap,
-    radius,
+  bg,
+  width,
+  justify,
+  align,
+  height,
+  direction,
+  shadow,
+  color,
+  margin,
+  padding,
+  position,
+  gap,
+  radius,
+  textAlign,
+  flexWrap
 }) => css`
     background-color: ${bg};
     width: ${width};
     height: ${height};
     display: flex;
-    flex-wrap: ${wrap};
+    flex-wrap: ${flexWrap};
     flex-direction: ${direction};
     justify-content: ${justify};
     align-items: ${align};
@@ -32,5 +33,7 @@ export const Box = styled.div`
     position: ${position};
     border-radius: ${radius};
     gap: ${gap};
+    text-align: ${textAlign};
+    z-index: 3;
   `}
 `;

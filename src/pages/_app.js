@@ -4,6 +4,9 @@ import "../styles/footer/index.css"
 import "../styles/bannerphotos/index.css"
 import "../styles/gridphotos/index.css"
 
+import "../styles/globalstyles.css"
+import "../styles/swiper/index.css"
+import 'animate.css';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
