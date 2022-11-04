@@ -74,7 +74,7 @@
   justify-content: center;
 }
 
-.banner-paz p {
+.banner-paz  {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,8 +87,29 @@
   margin-bottom: 56px;
 }
 
+.doacoes-banner-texto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doacoes-contas{
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
 
+}
+.doacoes-contas a {
+  text-decoration: none;
+  color:#2A2A2A;
+  font-family: Open Sans;
 
+}
+
+.doacoes-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+}
 @media(max-width: 720px) {
   .doacoes-texto-icones {
     font-size: 20px;

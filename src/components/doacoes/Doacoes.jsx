@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import {Button} from "react-bootstrap"
 
 function Doacoes() {
   return (
@@ -73,7 +74,23 @@ function Doacoes() {
       </container>
 
         <container className="banner-paz">
-          <p>"Eu quero ver a paz dançando no coração de todo ser humano."Prem Rawat</p>
+          <div className='doacoes-banner-texto'>
+            <div>
+          <p>"Eu quero ver a paz dançando no coração de todo ser humano."</p>
+          </div>
+            <div>
+            <p>Prem Rawat</p>
+            </div>
+            </div>
+        </container>
+
+        <container className="doacoes-contas">
+          <a href='#'><p>Prestação de contas</p></a>
+        </container>
+
+        <container className="doacoes-button">
+        <Button variant="outline-dark">Seja um voluntário</Button>
+
         </container>
 
 
