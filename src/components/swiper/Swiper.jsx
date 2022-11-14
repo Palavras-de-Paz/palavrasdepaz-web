@@ -12,24 +12,28 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 import Box from "../atoms/box/Box";
 import Image from "next/image";
-import USP from "../../../public/static/images/USP.png"
-import OLHO from "../../../public/static/images/OLHO.png"
-import BIBLIASPA from "../../../public/static/images/BIBLIASPA.png"
-import SALESFORCE from "../../../public/static/images/SALESFORCE.png"
-import FUNAP from "../../../public/static/images/FUNAP.png"
-import OPENTEXT from "../../../public/static/images/OPENTEXT.png"
+import image_6 from "../../../public/static/images/swiper/image 6.svg"
+import image_4 from "../../../public/static/images/swiper/image 4.svg"
+import image_11 from "../../../public/static/images/swiper/image 11.svg"
+import image_12 from "../../../public/static/images/swiper/image 12.svg"
+import image_14 from "../../../public/static/images/swiper/image 14.svg"
+import image_15 from "../../../public/static/images/swiper/image 15.svg"
+import image_16 from "../../../public/static/images/swiper/image 16.svg"
+import image_17 from "../../../public/static/images/swiper/image 17.svg"
+import image_18 from "../../../public/static/images/swiper/image 18.svg"
+import image_19 from "../../../public/static/images/swiper/image 19.svg"
+
 
 export default function SwiperJs() {
     const [swiperRef, setSwiperRef] = useState(null);
 
 
     return (
-        <Box margin="64px" >
+        <Box padding="10px 10px">
             <Swiper
-                onSwiper={setSwiperRef}
-                slidesPerView={5}
+            style={{justifyContent: 'center'}}
                 spaceBetween={1}
-                centeredSlides={false}
+                centeredSlides={true}
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
@@ -44,55 +48,55 @@ export default function SwiperJs() {
             >
 
                 <SwiperSlide>
-                    <Box radius="50%">
-                        <Image src={USP} alt="" />
-                    </Box>
+
+                    <Image width={200} height={200} className="swiperImg" src={image_6} alt="" />
+
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <Box radius="50%">
-                        <Image src={OLHO} alt="" />
-                    </Box>
+
+                    <Image width={200} height={200} className="swiperImg" src={image_4} alt="" />
+
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%">
-                        <Image src={BIBLIASPA} alt="" />
-                    </Box>
+
+                    <Image width={200} height={200} className="swiperImg" src={image_11} alt="" />
+
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%">
-                        <Image src={SALESFORCE} alt="" />
-                    </Box>
+
+                    <Image width={200} height={200} className="swiperImg" src={image_12} alt="" />
+
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%">
-                        <Image src={FUNAP} alt="" />
-                    </Box>
+
+                    <Image width={200} height={200} className="swiperImg" src={image_14} alt="" />
+
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%">
-                        <Image src={FUNAP} alt="" />
-                    </Box>
+
+                    <Image width={200} height={200} className="swiperImg" src={image_15} alt="" />
+
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%">
-                        <Image src={FUNAP} alt="" />
-                    </Box>
+
+                    <Image width={200} height={200} className="swiperImg" src={image_16} alt="" />
+
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%">
-                        <Image src={FUNAP} alt="" />
-                    </Box>
+
+                    <Image width={200} height={200} className="swiperImg" src={image_17} alt="" />
+
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%">
-                        <Image src={FUNAP} alt="" />
-                    </Box>
+
+                    <Image width={200} height={200} className="swiperImg" src={image_18} alt="" />
+
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%">
-                        <Image src={FUNAP} alt="" />
-                    </Box>
+
+                    <Image width={200} height={200} className="swiperImg" src={image_19} alt="" />
+
                 </SwiperSlide>
             </Swiper>
 

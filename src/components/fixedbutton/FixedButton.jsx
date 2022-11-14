@@ -47,6 +47,9 @@ export default function FixedButton() {
             <label for="exampleFormControlInput1" className="form-label">Mensagem</label>
             <textarea type="text" className="form-control" id="exampleFormControlInput1" placeholder="" required/>
           </div>
+         <Box display="flex" justify="center">
+         <button style={{background:"rgba(33,170,133,1)", border:"none", borderRadius:"10px", textAlign:"center", padding:"8px 24px", color:"white", fontWeight:"bold", letterSpacing:"0.1em"}}>ENVIAR</button>
+         </Box>
         </form>
         </Modal.Body>
       </Modal>
