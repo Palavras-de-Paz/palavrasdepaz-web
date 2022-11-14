@@ -29,7 +29,7 @@ export default function SwiperJs() {
                 onSwiper={setSwiperRef}
                 slidesPerView={5}
                 spaceBetween={1}
-                centeredSlides={false}     
+                centeredSlides={false}
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
@@ -40,52 +40,62 @@ export default function SwiperJs() {
                         slidesPerView: 1,
                         spaceBetween: 1,
                     },
-                }}               
+                }}
             >
-                
+
                 <SwiperSlide>
-                    <Box margin="0 0 0 40px" radius="50%" width="168px" height="168px" bg="black">
-                        <Image src={USP} alt=""/>
+                    <Box radius="50%">
+                        <Image src={USP} alt="" />
                     </Box>
                 </SwiperSlide>
-                
+
                 <SwiperSlide>
-                    <Box radius="50%" width="168px" height="168px" bg="black">
-                    <Image src={OLHO} alt=""/>
-                    </Box>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Box radius="50%" width="168px" height="168px" bg="black">
-                    <Image src={BIBLIASPA} alt=""/>
+                    <Box radius="50%">
+                        <Image src={OLHO} alt="" />
                     </Box>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%" width="168px" height="168px" bg="black">
-                    <Image src={SALESFORCE} alt=""/>
+                    <Box radius="50%">
+                        <Image src={BIBLIASPA} alt="" />
                     </Box>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%" width="168px" height="168px" bg="black">
-                    <Image src={FUNAP} alt=""/>
+                    <Box radius="50%">
+                        <Image src={SALESFORCE} alt="" />
                     </Box>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%" width="168px" height="168px" bg="black">
-                    <Image src={FUNAP} alt=""/>
+                    <Box radius="50%">
+                        <Image src={FUNAP} alt="" />
                     </Box>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%" width="168px" height="168px" bg="black">
-                    <Image src={FUNAP} alt=""/>
+                    <Box radius="50%">
+                        <Image src={FUNAP} alt="" />
                     </Box>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box radius="50%" width="168px" height="168px" bg="black">
-                    <Image src={FUNAP} alt=""/>
+                    <Box radius="50%">
+                        <Image src={FUNAP} alt="" />
+                    </Box>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Box radius="50%">
+                        <Image src={FUNAP} alt="" />
+                    </Box>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Box radius="50%">
+                        <Image src={FUNAP} alt="" />
+                    </Box>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Box radius="50%">
+                        <Image src={FUNAP} alt="" />
                     </Box>
                 </SwiperSlide>
             </Swiper>
-            
+
         </Box>
     );
 }
