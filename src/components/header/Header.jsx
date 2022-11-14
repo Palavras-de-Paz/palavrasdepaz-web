@@ -1,15 +1,19 @@
 import { Container, Nav, Navbar, Offcanvas, Stack } from 'react-bootstrap';
 import Image from "next/image";
+import Logo from '../../../public/static/images/logo.png'
+import Link from 'next/link';
 
 function Header() {
   return (
     <>
       <container className="styles-header">
         {['xl'].map((expand) => (
-          <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+          <Navbar key={expand} expand={expand} className="mb-3">
             <Container fluid>
-              <div className='logo-header'>
-              <Image  src="/images/logo.png" alt="logo-header" width="337px" height="156px"  />
+              <div className='logo-header' >
+                <Link href="/">
+                  <Image style={{ cursor: 'pointer'}} src={Logo} alt="logo-header" width="250px" height="100px" />
+                </Link>
               </div>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
               <Navbar.Offcanvas
@@ -24,11 +28,11 @@ function Header() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav id='buttons-header' className="justify-content-center  flex-grow-1 pe-3" >
-                    <Nav.Link href="#action1">Quem Somos</Nav.Link>
-                    <Nav.Link href="#action2">O Programa</Nav.Link>
-                    <Nav.Link href="#action2">Voluntários</Nav.Link>
-                    <Nav.Link href="#action2">Doações</Nav.Link>
-                    <Nav.Link href="#action2">Parcerias</Nav.Link>
+                    <Nav.Link href="/quem-somos">Quem Somos</Nav.Link>
+                    <Nav.Link href="/programa">O Programa</Nav.Link>
+                    <Nav.Link href="/voluntarios">Voluntários</Nav.Link>
+                    <Nav.Link href="/doacoes">Doações</Nav.Link>
+                    <Nav.Link href="/parcerias">Parcerias</Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>

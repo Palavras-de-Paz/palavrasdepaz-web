@@ -1,0 +1,16 @@
+:root {
+    --primary-color: rgba(33, 170, 133, 1);
+    --secondary-color: rgba(24, 202, 153, 1);
+    --tertiary-color: rgba(15, 224, 170, 1);
+    --quaternary-color: rgba(255, 255, 255, 1);
+}
+
+.modal-content {
+    bottom: -333px;
+     right: -700px;
+  }
+
+div.modal-header {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+}
