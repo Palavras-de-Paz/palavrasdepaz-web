@@ -12,7 +12,7 @@ function Header() {
             <Container fluid>
               <div className='logo-header' >
                 <Link href="/">
-                  <Image style={{ cursor: 'pointer', padding: '400px'}} src={Logo} alt="logo-header" width="337px" height="156px" />
+                  <Image style={{ cursor: 'pointer'}} src={Logo} alt="logo-header" width="250px" height="100px" />
                 </Link>
               </div>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

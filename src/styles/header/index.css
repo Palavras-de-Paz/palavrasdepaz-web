@@ -9,6 +9,7 @@
 .container-fluid {
   background-color: white !important;
   padding: 0 80px !important;
+  height: 100px;
 }
 
 #buttons-header {
