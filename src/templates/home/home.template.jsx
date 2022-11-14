@@ -25,7 +25,7 @@ export default function HomeTemplate() {
       <Card />
 
       <Box justify="center" padding="0 0 32px 0 " gap="48px">
-        <Button href="" justify="center" width="200px" height="56px" color="black" text="Mais Depoimentos" />
+        <Button href="/depoimentos" justify="center" width="200px" height="56px" color="black" text="Mais Depoimentos" />
         <Button href="/galeria" justify="center" width="200px" height="56px" color="black" text="Galeria de Fotos" />
       </Box>
 
