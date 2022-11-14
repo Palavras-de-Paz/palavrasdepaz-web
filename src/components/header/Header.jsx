@@ -28,11 +28,11 @@ function Header() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav id='buttons-header' className="justify-content-center  flex-grow-1 pe-3" >
-                    <Nav.Link href="#action1">Quem Somos</Nav.Link>
-                    <Nav.Link href="#action2">O Programa</Nav.Link>
-                    <Nav.Link href="/depoimentos">Voluntários</Nav.Link>
-                    <Nav.Link href="#action2">Doações</Nav.Link>
-                    <Nav.Link href="#action2">Parcerias</Nav.Link>
+                    <Nav.Link href="/quem-somos">Quem Somos</Nav.Link>
+                    <Nav.Link href="/programa">O Programa</Nav.Link>
+                    <Nav.Link href="/voluntarios">Voluntários</Nav.Link>
+                    <Nav.Link href="/doacoes">Doações</Nav.Link>
+                    <Nav.Link href="/parcerias">Parcerias</Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>
