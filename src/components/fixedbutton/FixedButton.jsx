@@ -39,13 +39,13 @@ export default function FixedButton() {
         <form>
           <div className="mb-3">
             <label for="exampleFormControlInput1" className="form-label">Nome</label>
-            <input type="name" className="form-control" id="exampleFormControlInput1" placeholder="" />
+            <input type="name" className="form-control" id="exampleFormControlInput1" placeholder="" requiredd/>
             <label for="exampleFormControlInput1" className="form-label">Email</label>
-            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="" />
+            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="" required/>
             <label for="exampleFormControlInput1" className="form-label">Assunto</label>
             <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="" />
             <label for="exampleFormControlInput1" className="form-label">Mensagem</label>
-            <textarea type="text" className="form-control" id="exampleFormControlInput1" placeholder="" />
+            <textarea type="text" className="form-control" id="exampleFormControlInput1" placeholder="" required/>
           </div>
         </form>
         </Modal.Body>
