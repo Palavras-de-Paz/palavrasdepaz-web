@@ -30,7 +30,7 @@ function Header() {
                   <Nav id='buttons-header' className="justify-content-center  flex-grow-1 pe-3" >
                     <Nav.Link href="#action1">Quem Somos</Nav.Link>
                     <Nav.Link href="#action2">O Programa</Nav.Link>
-                    <Nav.Link href="#action2">Voluntários</Nav.Link>
+                    <Nav.Link href="/depoimentos">Voluntários</Nav.Link>
                     <Nav.Link href="#action2">Doações</Nav.Link>
                     <Nav.Link href="#action2">Parcerias</Nav.Link>
                   </Nav>
