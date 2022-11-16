@@ -15,9 +15,9 @@ function Doacoes() {
             </p>
           </div>
           <div className='doacoes-icones'>
-            <Image src="/static/images/transformar.png" width="100%" height="100%" />
-            <Image src="/static/images/sorriso.png" width="100%" height="100%" />
-            <Image src="/static/images/paz.png" width="100%" height="100%" />
+            <Image src="/static/images/transformar.png" width="100%" height="100%" alt='' />
+            <Image src="/static/images/sorriso.png" width="100%" height="100%"alt='' />
+            <Image src="/static/images/paz.png" width="100%" height="100%"alt='' />
           </div>
           <div className='doacoes-texto-icones'>
             <div>
@@ -32,7 +32,7 @@ function Doacoes() {
           </div>
         </div>
         <div className='doacoes-image'>
-          <Image src="/static/images/doacoes.png" width="500%" height="100%" />
+          <Image src="/static/images/doacoes.png" width="500%" height="100%" alt=''/>
         </div>
       </container>
 
@@ -44,27 +44,27 @@ function Doacoes() {
         <div className='doacoes-empresas'>
           <div className='doacoes-pix'>
             <div>
-              <Image src="/static/images/pix.png" width="300%" height="100%" />
+              <Image src="/static/images/pix.png" width="300%" height="100%" alt=''/>
             </div>
             <div>
-              <Image src="/static/images/cnpj.png" width="300%" height="100%" />
+              <Image src="/static/images/cnpj.png" width="300%" height="100%"alt='' />
             </div>
           </div>
 
           <div className='doacoes-images-empresas'>
             <div>
-              <Image src="/static/images/paypal.png" width="300%" height="100%" />
+              <Image src="/static/images/paypal.png" width="300%" height="100%" alt='' />
             </div>
 
             <div>
               <div className='doacoes-icones-empresas'>
-                <Image src="/static/images/american.png" width="50%" height="50%" />
-                <Image src="/static/images/elo.png" width="50%" height="50%" />
-                <Image src="/static/images/master.png" width="50%" height="50%" />
+                <Image src="/static/images/american.png" width="50%" height="50%" alt='' />
+                <Image src="/static/images/elo.png" width="50%" height="50%" alt='' />
+                <Image src="/static/images/master.png" width="50%" height="50%" alt='' />
               </div>
               <div className='teste'>
-                <Image src="/static/images/visa.png" width="100%" height="50%" />
-                <Image src="/static/images/hiper.png" width="100%" height="50%" />
+                <Image src="/static/images/visa.png" width="100%" height="50%"alt='' />
+                <Image src="/static/images/hiper.png" width="100%" height="50%" alt='' />
               </div>
             </div>
           </div>
