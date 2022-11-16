@@ -19,6 +19,7 @@ export default function ParceirosTemplate() {
             <Box style={{ zIndex: -2 }} bg="rgba(33, 170, 133, 1)" height="150px" padding="10px" align="end" justify="end" direction="column" textAlign="end">
                 <Typography fontWeight="700" fontSize="36px" color="white" text="SEJA NOSSO PARCEIRO" />
             </Box>
+            
             <Box width="80%" margin="auto" direction="column">
 
                 <div>
@@ -60,7 +61,7 @@ export default function ParceirosTemplate() {
 
                 </Box>
 
-                <Box width="80%" direction="column" justify="center" align="center" gap="8px" margin="24px auto">
+                <Box direction="column" justify="center" align="center" gap="8px" margin="24px auto">
                     <Image  src={banner} alt="" />
                     <Typography text="Nosso parceiro: Opentext" fontSize="16px" color="#707070" />
                 </Box>

@@ -15,8 +15,10 @@ export default function HomeTemplate() {
     <div className="animate__animated animate__fadeIn animate__delay-1s">
       <Header />
 
+      
       <CarouselSlide />
       <GreenBar />
+
 
       <Box justify="center" padding="32px">
         <Typography fontSize="48px" fontWeight="800" lineHeight="75.55px" color='black' text="Depoimentos" />

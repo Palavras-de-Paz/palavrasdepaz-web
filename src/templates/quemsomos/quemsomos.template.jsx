@@ -43,7 +43,7 @@ Acreditamos que esse programa, internacionalmente reconhecido, pode ajudar difer
 
                         </p>
                     </Box>
-                    <Box direction="column" justify="center" width="160px" textAlign="center">
+                    <Box  direction="column" justify="center" width="160px" textAlign="center">
                         <Image src={card_3} alt="" width="100%" height="100%" />
                         <p>VALORES <br /><br />
 
@@ -70,7 +70,7 @@ Acreditamos que esse programa, internacionalmente reconhecido, pode ajudar difer
 Nos últimos anos conseguimos alcançar outras comunidades, levando o programa também para  idosos, dependentes químicos, moradores em situação de rua e refugiados. "/>
                     
                 </div>
-                <Button text="Nossa equipe" justify="center" width="200px" height="56px" color="black" />
+                <Button href="/equipe" text="Nossa equipe" justify="center" width="200px" height="56px" color="black" />
             </Box>
             <FixedButton />
             <Footer />

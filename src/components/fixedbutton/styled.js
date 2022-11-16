@@ -10,7 +10,7 @@ export const FixedBtn = styled.a`
     color: #fff;
     background-color: rgba(33, 170, 133, 1);
     padding: 16px 32px;
-    z-index: 999;
+    z-index: 1;
     font-size: 24px;
     cursor: pointer;
     &:hover {
