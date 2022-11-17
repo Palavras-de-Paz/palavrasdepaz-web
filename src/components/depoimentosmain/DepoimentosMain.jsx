@@ -1,12 +1,15 @@
 import Image from "next/image";
-import { Card, Button } from "react-bootstrap"
+
 
 
 function DepoimentosMain() {
   return (
 
     <>
-      <container className="depoimentos-principal">
+
+
+
+       <container className="depoimentos-principal">
         <div className="depoimentos-container-main">
 
           <div className="depoimentos-photos">
@@ -37,7 +40,7 @@ function DepoimentosMain() {
         </container>
       </container>
 
-      {/* depoimentos solo */}
+
 
       <container className="depoimentos-principal-solo">
         <div className="depoimentos-container-main-solo">
@@ -61,7 +64,7 @@ function DepoimentosMain() {
 
       </container>
 
-      {/* segunda parte */}
+
       <container className="depoimentos-principal">
         <div className="depoimentos-container-main">
 
@@ -97,7 +100,7 @@ function DepoimentosMain() {
         </container>
       </container>
 
-      {/* depoimentos solo */}
+
 
       <container className="depoimentos-principal-solo">
         <div className="depoimentos-container-main-solo">
