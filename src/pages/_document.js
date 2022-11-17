@@ -1,4 +1,4 @@
-import Document from 'next/document'
+import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
@@ -27,4 +27,18 @@ export default class MyDocument extends Document {
       sheet.seal()
     }
   }
+  render() {
+    return (
+        <Html lang="pt-BR">
+            <Head>
+                <link rel="shortcut icon" href="" />
+                <meta name="description" content="Palavras de Paz" />
+            </Head>
+            <body>
+                <Main />
+                <NextScript />
+            </body>
+        </Html>
+    );
+}
 }
