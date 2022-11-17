@@ -5,6 +5,8 @@ import "../styles/bannerphotos/index.css"
 import "../styles/gridphotos/index.css"
 import "../styles/bannerdepoimentos/index.css"
 import "../styles/depoimentosmain/index.css"
+import "../styles/doacoes/index.css"
+import "../styles/bannerdoacoes/index.css"
 
 import "../styles/globalstyles.css"
 import "../styles/swiper/index.css"
