@@ -12,7 +12,7 @@ function Header() {
             <Container fluid>
               <div className='logo-header' >
                 <Link href="/">
-                  <Image style={{ cursor: 'pointer'}} src={Logo} alt="logo-header" width="250px" height="100px" />
+                  <Image style={{ cursor: 'pointer'}} src={Logo} alt="logo-header" width="337px" height="156px" />
                 </Link>
               </div>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -28,7 +28,7 @@ function Header() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav id='buttons-header' className="justify-content-center  flex-grow-1 pe-3" >
-                    <Nav.Link href="/quem-somos">Quem Somos</Nav.Link>
+                    <Nav.Link href="/quemsomos">Quem Somos</Nav.Link>
                     <Nav.Link href="/programa">O Programa</Nav.Link>
                     <Nav.Link href="/voluntarios">Voluntários</Nav.Link>
                     <Nav.Link href="/doacoes">Doações</Nav.Link>
