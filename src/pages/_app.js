@@ -8,7 +8,7 @@ import "../styles/depoimentosmain/index.css"
 import "../styles/bannervoluntarios/index.css"
 import "../styles/doacoes/index.css"
 import "../styles/bannerdoacoes/index.css"
-import "../styles/voluntarios/index.css"
+import "../styles/bannerprograma/index.css"
 import "../styles/globalstyles.css"
 import "../styles/swiper/index.css"
 import 'animate.css';
