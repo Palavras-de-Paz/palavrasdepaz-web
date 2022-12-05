@@ -18,7 +18,7 @@ export default function ParceirosTemplate() {
         <div>
             <Header />
             <Box style={{ zIndex: -2 }} bg="rgba(33, 170, 133, 1)" maxWidth="100%" width="1416px" margin="0 auto" height="150px" padding="10px" align="end" justify="end" direction="column" textAlign="end">
-                <Typography fontWeight="700" fontSize="36px" color="white" text="SEJA NOSSO PARCEIRO" />
+                <Typography family="Baloo" fontWeight="700" fontSize="36px" color="white" text="SEJA NOSSO PARCEIRO" />
             </Box>
             <Center>
             <Box width="80%" margin="auto" direction="column">

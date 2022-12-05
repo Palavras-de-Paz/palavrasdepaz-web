@@ -45,6 +45,7 @@
 
 .doacoes-pix {
   display: flex;
+  align-items: center;
   border: 1px solid #18CA99;
   width: 45%;
   justify-content: space-between;
@@ -60,6 +61,7 @@
 
 .doacoes-images-empresas {
   display: flex;
+  align-items: center;
   border: 1px solid #18CA99;
   width: 45%;
   justify-content: space-between;
