@@ -22,7 +22,7 @@ export default function HomeTemplate() {
 
 
         <Box justify="center" padding="32px">
-          <Typography fontSize="48px" fontWeight="800" lineHeight="75.55px" color='black' text="Depoimentos" />
+          <Typography family="Baloo" fontSize="48px" fontWeight="800" lineHeight="75.55px" color='black' text="Depoimentos" />
         </Box>
 
         <Card />
