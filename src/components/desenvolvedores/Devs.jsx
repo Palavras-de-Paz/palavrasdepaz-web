@@ -44,7 +44,7 @@ function Devs() {
     <container className="segundo-container">
       <div className='adjust-dev'>
         <Image  src="/static/images/devs/enio.png" width="248px" height="248px" alt="enio-image" />
-        <p>ENIO SANTINELLI F.</p>
+        <p>ENIO SANTINELLI FILHO</p>
         <p>DEV. FRONTEND</p>
         <Link href="https://www.linkedin.com/in/eniosfilho" target="_blank">Linkedin</Link>
       </div>

@@ -73,6 +73,13 @@ width: 100vw;
 .copyright-footer p{
   margin-left: -80px;
 }
+
+.copyright-footer p :hover{
+  transition: 1s;
+  color: #18CA99;
+  text-decoration: underline;
+}
+
 .rodape-footer p a {
   text-decoration: none;
   color: #000000;
