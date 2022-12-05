@@ -31,11 +31,11 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <link rel="shortcut icon" href="" />
-          <meta name="description" content="Palavras de Paz" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;800&display=swap" rel="stylesheet" />
+          <link rel="shortcut icon" href="" />
+          <meta name="description" content="Palavras de Paz" />
         </Head>
         <body>
           <Main />
