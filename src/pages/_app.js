@@ -15,9 +15,17 @@ import "../styles/desenvolvedores/index.css"
 import "../styles/globalstyles.css"
 import "../styles/swiper/index.css"
 import 'animate.css';
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Head>
+        <title>Palavras de Paz</title>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
 }
 
 export default MyApp
