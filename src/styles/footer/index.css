@@ -57,10 +57,14 @@ width: 100vw;
   color: #000000;
 
 }
-.colunas-footer  :hover{
+.colunas-footer :hover{
   transition: 1s;
   color: #18CA99;
   text-decoration: underline;
+}
+.colunas-footer h6:hover {
+  color: #000000 !important;
+  text-decoration: none !important;
 }
 .rodape-footer{
   display: flex;
