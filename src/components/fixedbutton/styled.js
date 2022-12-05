@@ -8,7 +8,7 @@ export const FixedBtn = styled.a`
     text-align: center;
     text-decoration: none;
     color: #fff;
-    background-color: rgba(33, 170, 133, 1);
+    background-color: rgb(33 170 133 / 81%);
     padding: 16px 32px;
     z-index: 1;
     font-size: 24px;

@@ -29,7 +29,7 @@ export default function SwiperJs() {
 
 
     return (
-        <Box padding="10px 10px">
+        <Box >
             <Swiper
             style={{justifyContent: 'center'}}
                 spaceBetween={1}

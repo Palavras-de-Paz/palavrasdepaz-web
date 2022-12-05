@@ -9,20 +9,20 @@ export default function GreenBar(...props) {
 
                 <Box padding="10px" height="198px" bg="rgba(33, 170, 133, 1)" justify="center" align="center" direction="column" >
                     <Typography fontWeight="600" color="white" text="6000" fontSize="48px" justify="center" />
-                    <Typography textAlign="center" fontWeight="600" color="white" text="pessoas impactadas
-no último ano" fontSize="32px" justify="center" />
+                    <Typography textAlign="center" fontWeight="bold" color="white" text="pessoas impactadas
+no último ano" fontSize="24px" justify="center" />
                 </Box>
 
                 <Box padding="20px" height="198px" bg="rgba(24, 202, 153, 1)" justify="center" align="center" direction="column" >
                     <Typography fontWeight="600" color="white" text="5000" fontSize="48px" justify="center" />
-                    <Typography textAlign="center" fontWeight="600" color="white" text="avaliações do 
-programa em 2021" fontSize="32px" justify="center" />
+                    <Typography textAlign="center" fontWeight="bold" color="white" text="avaliações do 
+programa em 2021" fontSize="24px" justify="center" />
                 </Box>
 
                 <Box padding="20px" height="198px" bg="rgba(15, 224, 170, 1)" justify="center" align="center" direction="column">
                     <Typography fontWeight="600" color="white" text="150" fontSize="48px" justify="center" />
-                    <Typography textAlign="center" fontWeight="600" color="white" text="voluntários ativos
-atualmente" fontSize="32px" justify="center" />
+                    <Typography textAlign="center" fontWeight="bold" color="white" text="voluntários ativos
+atualmente" fontSize="24px" justify="center" />
                 </Box>
 
             </S.GreenContainer>
