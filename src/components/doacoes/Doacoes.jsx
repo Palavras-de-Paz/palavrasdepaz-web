@@ -93,7 +93,7 @@ function Doacoes() {
         </container>
 
         <container className="doacoes-button">
-          <Button variant="outline-dark">Seja um voluntário</Button>
+          <Button variant="light">Seja um voluntário</Button>
 
         </container>
       </Center>

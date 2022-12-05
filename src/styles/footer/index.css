@@ -20,6 +20,8 @@ padding-top: 16px;
 padding-bottom: 16px;
 background-color: #F2F2F2;
 }
+
+
 .acesso-footer{
   display: flex;
   justify-content: center;
@@ -50,6 +52,20 @@ width: 100vw;
   text-align: center;
 
 }
+.colunas-footer a{
+  text-decoration: none;
+  color: #000000;
+
+}
+.colunas-footer :hover{
+  transition: 1s;
+  color: #18CA99;
+  text-decoration: underline;
+}
+.colunas-footer h6:hover {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
 .rodape-footer{
   display: flex;
   justify-content: space-between;
@@ -61,6 +77,13 @@ width: 100vw;
 .copyright-footer p{
   margin-left: -80px;
 }
+
+.copyright-footer p :hover{
+  transition: 1s;
+  color: #18CA99;
+  text-decoration: underline;
+}
+
 .rodape-footer p a {
   text-decoration: none;
   color: #000000;
