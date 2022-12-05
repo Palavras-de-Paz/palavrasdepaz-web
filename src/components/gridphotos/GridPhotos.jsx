@@ -67,7 +67,7 @@ function GridPhotos() {
 
         </container>
 
-        <Button margin="32px auto" href="" justify="center" width="200px" height="56px" color="black" text="Depoimentos" />
+        <Button margin="32px auto" href="/depoimentos" justify="center" width="200px" height="56px" color="black" text="Depoimentos" />
       </Box>
 
     </>

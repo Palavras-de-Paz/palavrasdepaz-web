@@ -15,7 +15,7 @@ export default function FixedButton() {
 
     <>
 
-      <S.FixedBtn onClick={() => setSmShow(true)} className="animate__animated animate__fadeIn animate__delay-2s">CONTATO</S.FixedBtn>
+      <S.FixedBtn onClick={() => setSmShow(true)} className="animate__animated animate__fadeIn animate__delay-4s">CONTATO</S.FixedBtn>
 
       <Modal
         width="100%"

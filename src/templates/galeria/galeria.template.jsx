@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Center from '../../components/atoms/center/Center'
 import BannerPhotos from '../../components/bannerphotos/BannerPhotos'
 import FixedButton from '../../components/fixedbutton/FixedButton'
 import Footer from '../../components/footer/Footer'
@@ -10,9 +11,11 @@ export default function GaleriaTemplate() {
     return (
         <>
             <Header />
-            <BannerPhotos/>
-            <GridPhotos/>
-            <FixedButton/>
+            <BannerPhotos />
+            <Center>
+                <GridPhotos />
+            </Center>
+            <FixedButton />
             <Footer />
         </>
     )

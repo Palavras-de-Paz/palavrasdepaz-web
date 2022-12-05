@@ -83,8 +83,10 @@
   background-color: #21AA85;
   font-size: 36px;
   color: white;
-  height: 192px;
   margin-bottom: 56px;
+  width: 1416px;
+  max-width: 100%;
+  margin: 40px auto;
 }
 
 .doacoes-banner-texto{
@@ -108,7 +110,7 @@
 .doacoes-button{
   display: flex;
   justify-content: center;
-  margin-top: 56px;
+  margin: 40px 0;
 }
 @media(max-width: 720px) {
   .doacoes-texto-icones {
