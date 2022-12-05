@@ -20,6 +20,8 @@ padding-top: 16px;
 padding-bottom: 16px;
 background-color: #F2F2F2;
 }
+
+
 .acesso-footer{
   display: flex;
   justify-content: center;
@@ -49,6 +51,16 @@ width: 100vw;
   flex-direction: column;
   text-align: center;
 
+}
+.colunas-footer a{
+  text-decoration: none;
+  color: #000000;
+
+}
+.colunas-footer  :hover{
+  transition: 1s;
+  color: #18CA99;
+  text-decoration: underline;
 }
 .rodape-footer{
   display: flex;
