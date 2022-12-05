@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const IconContainer = styled.div`
     position: relative;
     width: 120px;
@@ -23,10 +24,10 @@ export const CardContent = styled.div`
 
 export const CardContainer = styled.div`
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 48px;
-    @media (max-width: 768px) {
+    @media (max-width: 1200px) {
         margin: 0 32px;
+        flex-wrap: wrap;
     `
 

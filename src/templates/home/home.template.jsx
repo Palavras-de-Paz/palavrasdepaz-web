@@ -22,7 +22,7 @@ export default function HomeTemplate() {
 
 
         <Box justify="center" padding="32px">
-          <Typography fontSize="48px" fontWeight="800" lineHeight="75.55px" color='black' text="Depoimentos" />
+          <Typography family="Baloo" fontSize="48px" fontWeight="800" lineHeight="75.55px" color='black' text="Depoimentos" />
         </Box>
 
         <Card />
@@ -33,7 +33,7 @@ export default function HomeTemplate() {
         </Box>
 
         <Box justify="center" padding="32px">
-          <iframe width="900" height="618" src="https://www.youtube.com/embed/X3cphCj9YVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="900" height="618" src="https://www.youtube.com/embed/X3cphCj9YVc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
         </Box>
       </Center>
 
