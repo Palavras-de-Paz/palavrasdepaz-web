@@ -108,7 +108,7 @@ function Footer() {
             <p>Direitos rezervados à Palavra de Paz</p>
           </div>
           <div className='copyright-footer'>
-            <p><a href='/desenvolvedores'>©2022 Desenvolvedores</a></p>
+            <p><Link href='/desenvolvedores'>©2022 Desenvolvedores</Link></p>
           </div>
           <div>
             <p>CNPJ: 05.920.548/0001-73</p>
