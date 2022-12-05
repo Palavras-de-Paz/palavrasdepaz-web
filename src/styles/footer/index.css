@@ -3,6 +3,9 @@
 .footer{
   font-family: 'Open Sans', sans-serif;
   margin-top: 32px;
+  max-width: 1512px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 .line-footer{
@@ -38,7 +41,7 @@ width: 100vw;
   flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: #F2F2F2;
-  margin-left: -4rem;
+
 }
 
 .colunas-footer{

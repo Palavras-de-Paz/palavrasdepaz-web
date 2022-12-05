@@ -11,15 +11,16 @@ import Image from "next/image";
 import Footer from "../../components/footer/Footer";
 import Button from "../../components/button/button";
 import FixedButton from "../../components/fixedbutton/FixedButton";
+import Center from "../../components/atoms/center/Center";
 
 export default function ParceirosTemplate() {
     return (
         <div>
             <Header />
-            <Box style={{ zIndex: -2 }} bg="rgba(33, 170, 133, 1)" height="150px" padding="10px" align="end" justify="end" direction="column" textAlign="end">
+            <Box style={{ zIndex: -2 }} bg="rgba(33, 170, 133, 1)" maxWidth="100%" width="1416px" margin="0 auto" height="150px" padding="10px" align="end" justify="end" direction="column" textAlign="end">
                 <Typography fontWeight="700" fontSize="36px" color="white" text="SEJA NOSSO PARCEIRO" />
             </Box>
-            
+            <Center>
             <Box width="80%" margin="auto" direction="column">
 
                 <div>
@@ -81,7 +82,7 @@ export default function ParceirosTemplate() {
                 <Button href="/doacao" justify="center" width="200px" height="48px" color="black" text="Galeria de Fotos" />
             </Box>
 
-
+            </Center>
             <FixedButton />
             <Footer />
         </div>

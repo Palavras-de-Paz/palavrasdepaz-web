@@ -16,7 +16,8 @@ export const Box = styled.div`
   gap,
   radius,
   textAlign,
-  flexWrap
+  flexWrap,
+  maxWidth,
 }) => css`
     background-color: ${bg};
     width: ${width};
@@ -35,5 +36,6 @@ export const Box = styled.div`
     gap: ${gap};
     text-align: ${textAlign};
     z-index: 3;
+    max-width: ${maxWidth};
   `}
 `;

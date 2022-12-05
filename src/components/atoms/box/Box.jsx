@@ -16,7 +16,8 @@ const Box = ({
     radius,
     gap,
     textAlign,
-    flexWrap
+    flexWrap,
+    maxWidth,
 }) => {
     return (
         <S.Box
@@ -35,6 +36,7 @@ const Box = ({
             radius={radius}
             textAlign={textAlign}
             flexWrap={flexWrap}
+            maxWidth={maxWidth}
         >
             {children}
         </S.Box>

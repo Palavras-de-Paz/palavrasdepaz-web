@@ -71,7 +71,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 1416px;
+  max-width: 100%;
+  margin: 0 auto;
   height: 100%;
   background-color: #21AA85;
   color: white;
