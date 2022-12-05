@@ -16,19 +16,45 @@ function Footer() {
         <div className='line-footer'></div>
         <div className='medias-footer'>
           <div>
-            <a href='https://www.youtube.com/channel/UCkmhiQTeUfdvKIY9NG9Navg' target="_blank"><Image id="you" onMouseOver={Evento1} src="/static/images/youtube.png" width="40px" height="40px" alt='youtube' /></a>
+
+            <Link href={`https://www.youtube.com/channel/UCkmhiQTeUfdvKIY9NG9Navg`} target="_blank">
+              <div>
+              <Image id="you" onMouseOver={Evento1} src="/static/images/youtube.png" width="40px" height="40px" alt='youtube' />
+              </div>
+              </Link>
           </div>
           <div>
-            <a href='https://www.instagram.com/palavrasdepaz.br/' target="_blank"><Image id="insta" onMouseOver={Evento2} src="/static/images/instagram.png" width="40px" height="40px" alt='instagram' /></a>
+
+            <Link href="https://www.instagram.com/palavrasdepaz.br/" target="_blank">
+              <div>
+              <Image id="insta" onMouseOver={Evento2} src="/static/images/instagram.png" width="40px" height="40px" alt='instagram' />
+              </div>
+              </Link>
           </div>
           <div>
-            <a href='https://www.linkedin.com/company/palavrasdepaz/mycompany/' target="_blank"> <Image id='link' onMouseOver={Evento3} src="/static/images/linkedin.png" width="40px" height="40px" alt='linkedin' /></a>
+
+            <Link href={`https://www.linkedin.com/company/palavrasdepaz/mycompany/` }target="_blank">
+              <div>
+               <Image id='link' onMouseOver={Evento3} src="/static/images/linkedin.png"
+               width="40px" height="40px" alt='linkedin' />
+               </div>
+               </Link>
           </div>
           <div>
-            <a href='https://www.facebook.com/palavrasdepaz.br' target="_blank"><Image id='face' onMouseOver={Evento4} src="/static/images/facebook.png" width="40px" height="40px" alt='facebook' /></a>
+
+            <Link href="https://www.facebook.com/palavrasdepaz.br" target="_blank">
+              <div>
+              <Image id='face' onMouseOver={Evento4} src="/static/images/facebook.png" width="40px" height="40px" alt='facebook' />
+              </div>
+              </Link>
           </div>
           <div>
-            <a href='https://wa.me/5511999756554' target="_blank"  ><Image id='whats' onMouseOver={Evento5} src="/static/images/whatsapp.png" width="40px" height="40px" alt='whatsapp' /></a>
+
+            <Link href="https://wa.me/5511999756554" target="_blank"  >
+              <div>
+              <Image id='whats' onMouseOver={Evento5} src="/static/images/whatsapp.png" width="40px" height="40px" alt='whatsapp' />
+              </div>
+              </Link>
           </div>
         </div>
         <div className='line-footer'></div>
