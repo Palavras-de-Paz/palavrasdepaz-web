@@ -29,9 +29,10 @@ export default function SwiperJs() {
 
 
     return (
-        <Box >
+        <Box direction="column">
+           <> <h1 style={{textAlign:"center", margin:"0 0 40px 0", fontFamily:"Baloo", textTransform: "uppercase"}}>parceiros</h1></>
             <Swiper
-            style={{justifyContent: 'center'}}
+            style={{justifyContent: 'center', width: '100%'}}
                 spaceBetween={1}
                 centeredSlides={true}
                 navigation={true}
