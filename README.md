@@ -8,7 +8,7 @@
 
 ![image](https://user-images.githubusercontent.com/88943961/205814572-ec36b186-6733-4af5-b770-3f8524591ad0.png)
 
-Este é um projeto [Next.js](https://nextjs.org/) inicializado com create-next-app. [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). 
+Este é um projeto [Next.js](https://nextjs.org/) inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). 
 
 ## Getting Started
 First, run the development server:
