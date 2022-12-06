@@ -1,7 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88943961/205815029-dfbeaf17-d12c-485b-b6c2-4ea75011ba52.png"/>
+<br/>
+<img src="https://user-images.githubusercontent.com/88943961/205815975-0d06d1b3-56aa-4702-95ba-3668faf10376.png"/>
+</p>
+
+<h2 align="center">The Prem Rawat Foundation | ONG Palavras de Paz</h2><br/>
+
+![image](https://user-images.githubusercontent.com/88943961/205814572-ec36b186-6733-4af5-b770-3f8524591ad0.png)
+
+Este é um projeto [Next.js](https://nextjs.org/) inicializado com create-next-app. [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). 
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
