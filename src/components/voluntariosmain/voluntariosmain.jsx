@@ -3,6 +3,7 @@ import Image from "next/image"
 import LogoVoluntarios from '../../../public/static/images/voluntarios.png'
 import { Button } from 'react-bootstrap'
 import Center from '../atoms/center/Center'
+import Link from 'next/link'
 
 function VoluntariosMain() {
   return (
@@ -70,11 +71,12 @@ function VoluntariosMain() {
         <container className="voluntarios-container-button">
 
           <div className='voluntarios-style-button'>
-            <p>CADASTRO</p>
-          </div>
+      <p><Link style={{color: "white"}} href="https://form.jotform.com/220305437068653" alt="formulario de inscrição" >CADASTRO</Link></p>
+              </div>
 
           <div className='voluntarios-style-button'>
-            <a href='https://www.atados.com.br/' target="_blanck"><p>ATADOS</p></a>
+          <p><Link style={{color: "white"}} href="https://form.jotform.com/220305437068653" alt="link atados" >ATADOS</Link></p>
+            
           </div>
 
         </container>
@@ -87,7 +89,7 @@ function VoluntariosMain() {
       </div>
       <Center>
         <div className='voluntarios-button-doacao'>
-          <p>Faça uma doação</p>
+          <Link href="/doacoes">Faça uma doação</Link>
         </div>
       </Center>
     </>

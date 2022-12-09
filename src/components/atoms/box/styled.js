@@ -18,6 +18,7 @@ export const Box = styled.div`
   textAlign,
   flexWrap,
   maxWidth,
+  border
 }) => css`
     background-color: ${bg};
     width: ${width};
@@ -37,5 +38,6 @@ export const Box = styled.div`
     text-align: ${textAlign};
     z-index: 3;
     max-width: ${maxWidth};
+    border: ${border};
   `}
 `;

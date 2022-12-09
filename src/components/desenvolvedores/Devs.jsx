@@ -12,7 +12,7 @@ function Devs() {
     <container className="primeiro-container">
       <div className='adjust-dev'>
 
-        <Image style={{border: "2px solid #18CA99", borderRadius:"50%"}} src="/static/images/devs/simon.jpeg" width="248px" height="248px" alt="simon-image" />
+        <Image style={{border: "2px solid #18CA99", borderRadius:"50%"}} src="/static/images/devs/simon.svg" width="248px" height="248px" alt="simon-image" />
         <p>ADRYEL SIMON</p>
         <p>DEV. FRONTEND</p>
         <Link href="https://www.linkedin.com/in/adryelsimon" >Linkedin</Link>

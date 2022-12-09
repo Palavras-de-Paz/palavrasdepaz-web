@@ -47,27 +47,27 @@ function Doacoes() {
           <div className='doacoes-empresas'>
             <div className='doacoes-pix'>
               <div>
-                <Image src="/static/images/pix.png" width="300%" height="100%" alt='' />
+                <Image src="/static/images/pix.png" width="277%" height="92%" alt='' />
               </div>
               <div>
-                <Image src="/static/images/cnpj.png" width="300%" height="100%" alt='' />
+                <Image src="/static/images/cnpj.png" width="320%" height="75%" alt='' />
               </div>
             </div>
 
             <div className='doacoes-images-empresas'>
               <div>
-                <Image src="/static/images/paypal.png" width="300%" height="100%" alt='' />
+                <Image src="/static/images/paypal.png" width="227%" height="95%" alt='' />
               </div>
 
               <div>
                 <div className='doacoes-icones-empresas'>
-                  <Image src="/static/images/american.png" width="50%" height="50%" alt='' />
-                  <Image src="/static/images/elo.png" width="50%" height="50%" alt='' />
-                  <Image src="/static/images/master.png" width="50%" height="50%" alt='' />
+                  <Image src="/static/images/american.png" width="61%" height="61%" alt='' />
+                  <Image src="/static/images/elo.png" width="68%" height="67%" alt='' />
+                  <Image src="/static/images/master.png" width="74%" height="61%" alt='' />
                 </div>
                 <div className='teste'>
-                  <Image src="/static/images/visa.png" width="100%" height="50%" alt='' />
-                  <Image src="/static/images/hiper.png" width="100%" height="50%" alt='' />
+                  <Image src="/static/images/visa.png" width="108%" height="40%" alt='' />
+                  <Image src="/static/images/hiper.png" width="100%" height="48%" alt='' />
                 </div>
               </div>
             </div>
@@ -89,12 +89,8 @@ function Doacoes() {
       </container>
       <Center>
         <container className="doacoes-contas">
-          <a href=''><p>Prestação de contas</p></a>
-        </container>
-
-        <container className="doacoes-button">
-          <Button variant="light">Seja um voluntário</Button>
-
+          <a href='#'><p>Prestação de contas</p></a>
+          <div>  <Button href='/voluntarios' variant="light">Seja um voluntário</Button></div>
         </container>
       </Center>
     </>

@@ -66,7 +66,7 @@ function Footer() {
           <div className='colunas-footer'>
           <h6>Quem Somos</h6>
             <Link href='/equipe'>Nossa equipe</Link>
-            <Link href='/quemsomos'>Nossa História</Link>
+            <Link href='/sobre-nos'>Nossa História</Link>
 
           </div>
 
@@ -79,7 +79,7 @@ function Footer() {
 
           <div className='colunas-footer'>
             <h6>Voluntários</h6>
-            <Link href="#">Cadastro</Link>
+            <Link href="https://form.jotform.com/220305437068653">Cadastro</Link>
             <Link href='https://www.atados.com.br/' target="_blank">Atados</Link>
           </div>
 

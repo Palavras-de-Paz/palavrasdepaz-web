@@ -6,7 +6,7 @@ export const SlideContainer = styled.div`
 
 export const TextSlide = styled.h1`
     position: absolute;
-    font-family: 'Baloo', cursive;
+    font-family: 'Baloo', cursive, arial;
     letter-spacing: 0.1em;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: white;

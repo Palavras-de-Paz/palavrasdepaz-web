@@ -4,7 +4,7 @@ function BannerVoluntarios() {
   return (
     <>
     <div className='banner-voluntarios'>
-      <p>SEJA UM VOLUNTÁRIO</p>
+      <p style={{fontWeight:"700"}}>SEJA UM VOLUNTÁRIO</p>
     </div>
 
 

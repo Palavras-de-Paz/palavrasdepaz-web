@@ -22,14 +22,14 @@ export default function HomeTemplate() {
 
 
         <Box justify="center" padding="32px">
-          <Typography family="Baloo" fontSize="48px" fontWeight="800" lineHeight="75.55px" color='black' text="Depoimentos" />
+          <Typography family="Baloo, cursive" fontSize="48px" fontWeight="800" lineHeight="75.55px" color='black' text="Depoimentos" />
         </Box>
 
         <Card />
 
         <Box justify="center" margin="0 20px" padding="0 0 32px 0 " gap="48px">
-          <Button href="/depoimentos" justify="center" width="200px" height="56px" color="black" text="Mais Depoimentos" />
-          <Button href="/galeria" justify="center" width="200px" height="56px" color="black" text="Galeria de Fotos" />
+          <Button href="/depoimentos" align="center" justify="center" width="200px" height="56px" color="black" text="Mais Depoimentos" />
+          <Button href="/galeria" align="center" justify="center" width="200px" height="56px" color="black" text="Galeria de Fotos" />
         </Box>
 
         <Box justify="center" padding="32px">
@@ -37,19 +37,21 @@ export default function HomeTemplate() {
         </Box>
       </Center>
 
-      <Box style={{ zIndex: -2 }}  maxWidth="100%" width="1416px" margin="80px auto" bg="rgba(33, 170, 133, 1)" padding="32px" justify="center" align="center" direction="column" textAlign="center">
+      <Box style={{ zIndex: -2 }} maxWidth="100%" width="1416px" margin="80px auto" bg="rgba(33, 170, 133, 1)" padding="32px" justify="center" align="center" direction="column" textAlign="center">
         <Typography width="88%" fontWeight="700" fontSize="36px" color="white" text="``Não é o mundo que precisa de paz, são as pessoas,
 quando as pessoas tiverem paz interior, o mundo estará em paz.´´"/>
         <Typography fontWeight="700" fontSize="36px" color="white" text="Prem Rawat" />
       </Box>
+
       <Center>
         <SwiperJs />
 
         <Box align="center" justify="center" padding="32px">
           <Button bg="rgba(33, 170, 133, 1)" color="white" href="" justify="center" width="200px" height="56px" text="Seja um parceiro" />
         </Box>
+
       </Center>
-        <FixedButton />
+      <FixedButton />
       <Footer />
     </div>
   )

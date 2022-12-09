@@ -4,7 +4,7 @@ function BannerPhotos() {
   return (
    <>
     <div className='banner-photos'>
-      <p>GALERIA DE FOTOS</p>
+      <p style={{fontWeight:"700"}}>GALERIA DE FOTOS</p>
     </div>
 
    </>

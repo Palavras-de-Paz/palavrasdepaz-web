@@ -12,6 +12,7 @@ import "../styles/bannerdoacoes/index.css"
 import "../styles/bannerprograma/index.css"
 import "../styles/bannerdevs/index.css"
 import "../styles/desenvolvedores/index.css"
+import "../styles/programa/index.css"
 import "../styles/globalstyles.css"
 import "../styles/swiper/index.css"
 import 'animate.css';

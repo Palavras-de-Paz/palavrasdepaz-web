@@ -4,7 +4,7 @@ function BannerPrograma() {
   return (
     <>
 <div className='banner-programa'>
-      <p>O PROGRAMA</p>
+      <p style={{fontWeight:"700"}}>O PROGRAMA</p>
     </div>
 
 

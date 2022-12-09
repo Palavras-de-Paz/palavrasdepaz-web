@@ -14,9 +14,9 @@ export default function QuemSomosTemplate() {
     return (
         <div>
             <Header />
-            <Box style={{ zIndex: -2 }} bg="rgba(33, 170, 133, 1)" maxWidth="100%" width="1416px" margin="0 auto"  height="150px" padding="10px" align="end" justify="end" direction="column" textAlign="end">
-                <Typography fontWeight="700" fontSize="36px" color="white" text="QUEM SOMOS" />
-            </Box>
+            <div className="banner-gradient" style={{ zIndex: -2, display:"flex", height:"176px", padding:"10px", alignItems:"end", justifyContent:"end" }}>
+                <Typography margin="100px 0 0 0" fontWeight="700" fontSize="52px" color="white" text="QUEM SOMOS" />
+            </div>
             <Center>
                 <Box width="80%" margin="auto" direction="column">
                     <div>
@@ -60,9 +60,9 @@ Acreditamos que esse programa, internacionalmente reconhecido, pode ajudar difer
 
             </Center>
 
-            <Box style={{ zIndex: -2 }} bg="rgba(33, 170, 133, 1)"  maxWidth="100%" width="1416px" margin="0 auto" height="150px" padding="10px" align="end" justify="end" direction="column" textAlign="end">
-                <Typography fontWeight="700" fontSize="36px" color="white" text="NOSSA HISTÓRIA" />
-            </Box>
+            <div className="banner-gradient" style={{ zIndex: -2, display:"flex", height:"176px", padding:"10px", alignItems:"end", justifyContent:"end" }}>
+                <Typography margin="100px 0 0 0" fontWeight="700" fontSize="52px" color="white" text="NOSSA HISTÓRIA" />
+            </div>
 
             <Center>
                 <Box width="80%" margin="auto" direction="column" align="center">

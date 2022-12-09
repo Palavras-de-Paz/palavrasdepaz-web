@@ -32,10 +32,20 @@ export default class MyDocument extends Document {
       <Html lang="pt-BR">
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
           <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;800&display=swap" rel="stylesheet" />
-          <link rel="shortcut icon" href="" />
+          <link rel="shortcut icon" href="/favicon.ico" />
           <meta name="description" content="Palavras de Paz" />
+          <meta name="title" content="ONG Palavras de Paz" />
+          <meta name="description" content="Voluntário é um cidadão que ao perceber diferenças sociais, disponibiliza o seu tempo para atuar em pró de outros seres humanos e assim contribui com um mundo novo." />
+
+          {/* <!-- Open Graph / Facebook --/> */}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.facebook.com/palavrasdepaz.br/" />
+          <meta property="og:title" content="ONG Palavras de Paz" />
+          <meta property="og:description" content="Voluntário é um cidadão que ao perceber diferenças sociais, disponibiliza o seu tempo para atuar em pró de outros seres humanos e assim contribui com um mundo novo." />
+          <meta property="og:image" content="https://www.palavrasdepaz.org/_next/static/media/logo.a78a7b1d.svg" />
+
         </Head>
         <body>
           <Main />

@@ -15,7 +15,7 @@ export default function FixedButton() {
 
     <>
 
-      <S.FixedBtn onClick={() => setSmShow(true)} className="animate__animated animate__fadeIn animate__delay-4s">CONTATO</S.FixedBtn>
+      <S.FixedBtn onClick={() => setSmShow(true)} className="animate__animated animate__fadeInRight animate__delay-4s">CONTATO</S.FixedBtn>
 
       <Modal
         width="100%"
@@ -25,33 +25,39 @@ export default function FixedButton() {
         aria-labelledby="example-modal-sizes-title-sm"
       >
         <Modal.Header closeButton>
-        <Box display="flex" direction="column">
+          <Box display="flex" direction="column">
 
-          <Modal.Title id="example-modal-sizes-title-sm" className="m-auto">
-            CONTATO
-          </Modal.Title>
-         <div>
-         <p>Fique à vontade. Retornaremos em breve.</p>
-         </div>
-        </Box>
+            <Modal.Title id="example-modal-sizes-title-sm" className="m-auto">
+              CONTATO
+            </Modal.Title>
+            <div>
+              <p>
+                <br />Fique à vontade.
+                <br />Retornaremos em breve.</p>
+            </div>
+          </Box>
         </Modal.Header>
         <Modal.Body>
-        {/* formulario de contato */}
-        <form>
-          <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">Nome</label>
-            <input type="name" className="form-control" id="exampleFormControlInput1" placeholder="" requiredd/>
-            <label for="exampleFormControlInput1" className="form-label">Email</label>
-            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="" required/>
-            <label for="exampleFormControlInput1" className="form-label">Assunto</label>
-            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="" />
-            <label for="exampleFormControlInput1" className="form-label">Mensagem</label>
-            <textarea type="text" className="form-control" id="exampleFormControlInput1" placeholder="" required/>
-          </div>
-         <Box display="flex" justify="center">
-         <button style={{background:"rgba(33,170,133,1)", border:"none", borderRadius:"10px", textAlign:"center", padding:"8px 24px", color:"white", fontWeight:"bold", letterSpacing:"0.1em"}}>ENVIAR</button>
-         </Box>
-        </form>
+          {/* formulario de contato */}
+          <form action="https://formsubmit.co/info@palavrasdepaz.org" method="POST">
+            <div className="mb-3">
+              <input type="hidden" name="_template" value="box" />
+              <input type="hidden" name="_autoresponse" value="Agradecemos o contato! Responderemos sua mensagem em breve!" />
+              <input type="hidden" name="_subject" value="Mensagem via site da ONG!" />
+              <input type="hidden" name="_next" value="https://palavrasdepaz.org" />
+              <label className="form-label">Nome</label>
+              <input type="name" className="form-control" placeholder="Digite seu nome" name="Nome" required />
+              <label className="form-label">Email</label>
+              <input type="email" name="Email" className="form-control" placeholder="Digite seu email" required />
+              <label className="form-label">Assunto</label>
+              <input type="text" name="Assunto" className="form-control" placeholder="Assunto da sua mensagem" />
+              <label className="form-label">Mensagem</label>
+              <textarea type="text" name="Mensagem" className="form-control" required />
+            </div>
+            <Box display="flex" justify="center">
+              <button type="submit" style={{ background: "rgba(33,170,133,1)", border: "none", borderRadius: "10px", textAlign: "center", padding: "8px 24px", color: "white", fontWeight: "bold", letterSpacing: "0.1em" }}>ENVIAR</button>
+            </Box>
+          </form>
         </Modal.Body>
       </Modal>
 

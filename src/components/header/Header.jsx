@@ -1,18 +1,20 @@
 import { Container, Nav, Navbar, Offcanvas, Stack } from 'react-bootstrap';
 import Image from "next/image";
-import Logo from '../../../public/static/images/logo.png'
+import Logo from '../../../public/static/images/logo.svg'
 import Link from 'next/link';
+import Box from '../atoms/box/Box';
 
 function Header() {
   return (
     <>
-      <container className="styles-header">
+      <container  style={{pading:"0"}} className="styles-header">
         {['xl'].map((expand) => (
-          <Navbar key={expand} expand={expand} className="mb-3">
+          <Navbar key={expand} expand={expand}>
             <Container fluid>
+              <Box>
               <div className='logo-header' >
                 <Link href="/">
-                  <Image style={{ cursor: 'pointer'}} src={Logo} alt="logo-header" width="270%" height="100%" />
+                  <Image style={{ cursor: 'pointer'}} src={Logo} alt="logo-header" width="333px" height="150px" />
                 </Link>
               </div>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -27,8 +29,8 @@ function Header() {
                   </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                  <Nav id='buttons-header' className="justify-content-center  flex-grow-1 pe-3" >
-                    <Nav.Link href="/quemsomos">Quem Somos</Nav.Link>
+                  <Nav id='buttons-header' className="flex-grow-1 pe-3" >
+                    <Nav.Link href="/sobre-nos">Quem Somos</Nav.Link>
                     <Nav.Link href="/programa">O Programa</Nav.Link>
                     <Nav.Link href="/voluntarios">Voluntários</Nav.Link>
                     <Nav.Link href="/doacoes">Doações</Nav.Link>
@@ -36,6 +38,7 @@ function Header() {
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>
+              </Box>
             </Container>
           </Navbar>
         ))}

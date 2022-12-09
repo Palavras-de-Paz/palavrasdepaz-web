@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function OPrograma() {
   return (
@@ -82,7 +83,7 @@ Para isso precisamos cada vez mais divulgar nossa trabalho e aumentar o número 
       </div>
       <div className='container-programa-button'>
         <div className='programa-button2'>
-          <p>Seja um voluntário</p>
+          <Link href='/voluntarios'><p>Seja um voluntário</p></Link>
         </div>
 
         <div className='programa-button2'>
