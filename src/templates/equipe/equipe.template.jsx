@@ -7,7 +7,7 @@ import card_2 from '../../../public/static/images/equipe/Ellipse2-2.svg'
 import card_3 from '../../../public/static/images/equipe/Ellipse2-3.svg'
 import card_4 from '../../../public/static/images/equipe/Ellipse2-4.svg'
 import card_5 from '../../../public/static/images/equipe/Ellipse2-6.svg'
-import card_6 from '../../../public/static/images/equipe/Ellipse2-7.svg'
+import card_6 from '../../../public/static/images/equipe/Ellipse-A.svg'
 import card_7 from '../../../public/static/images/equipe/Ellipse2-8.svg'
 import card_8 from '../../../public/static/images/equipe/Ellipse2-9.svg'
 import card_9 from '../../../public/static/images/equipe/Ellipse2-10.svg'
@@ -47,7 +47,7 @@ A paz sempre foi a principal busca da humanidade ao longo da história, e por is
 
                 <Box maxWidth="1416px" margin="24px auto" flexWrap="wrap" gap="16%" align="center" justify="center">
 
-                    <Box width="150px" direction="column" align="center" margin="20px 0"><Image src={card_12} alt="" width="150%" height="150%" />
+                    <Box width="150px" direction="column" align="center" margin="20px 0"><Image src={card_6} alt="" width="150%" height="150%" />
                         <Typography text={["ANA PAULA BORO", <br />,
                             "SOCIAL MEDIA"]} fontWeight="bold" fontSize="12px" textAlign="center" />
                     </Box>
