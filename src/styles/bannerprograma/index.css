@@ -19,15 +19,18 @@
 }
 
 .programa-texto{
-
-  padding: 20px;
-  font-size: 32px;
+  width: 88%;
+  margin:auto;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: 'opan sans', Arial, Helvetica, sans-serif;
 }
 .container-programa{
-
  display: flex;
- justify-content: space-around;
+ justify-content: center;
  flex-wrap: wrap;
+gap: 160px;
+margin: 40px 0;
 
 }
 
@@ -84,5 +87,12 @@ justify-content: center;
 @media(max-width: 492px) {
   .banner-photos p {
     font-size: 30px;
+  }
+}
+
+@media(max-width: 368px) {
+  .banner-programa p{
+    font-size: 40px;
+    
   }
 }

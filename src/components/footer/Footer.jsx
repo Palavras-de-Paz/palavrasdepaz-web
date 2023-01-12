@@ -19,7 +19,7 @@ function Footer() {
 
             <Link href={`https://www.youtube.com/channel/UCkmhiQTeUfdvKIY9NG9Navg`} target="_blank">
               <div>
-              <Image id="you" onMouseOver={Evento1} src="/static/images/youtube.png" width="40px" height="40px" alt='youtube' />
+              <Image className='rounded' id="you" onMouseOver={Evento1} src="/static/images/youtube.png" width="40px" height="40px" alt='youtube' />
               </div>
               </Link>
           </div>
@@ -72,9 +72,10 @@ function Footer() {
 
           <div className='colunas-footer'>
             <h6>O Programa</h6>
-            <Link href="#">Reunião</Link>
+            <Link href="https://us02web.zoom.us/j/81046198333 ">Reunião</Link>
             <Link href='https://www.premrawat.com/pt/' target="_blank">Prew Rawart</Link>
             <Link href='https://tprf.org/pt-br/' target="_blank">TPRF</Link>
+            <Link href="#">Downloads</Link>
           </div>
 
           <div className='colunas-footer'>

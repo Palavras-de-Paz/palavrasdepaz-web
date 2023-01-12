@@ -26,6 +26,6 @@
 }
 .doacoes-icones{
   display: flex;
-  justify-content: center;
-  gap:183px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }

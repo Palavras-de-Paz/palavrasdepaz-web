@@ -72,7 +72,7 @@ A paz sempre foi a principal busca da humanidade ao longo da história, e por is
                         <Typography text={["GIANFRANCO BOCCEDI", <br />, "T.I"]} fontWeight="bold" fontSize="12px" textAlign="center" />
                     </Box>
                     <Box width="150px" direction="column" align="center" margin="20px 0"><Image src={card_13} alt="" width="150%" height="150%" />
-                        <Typography text={["MÔNICA LOPES", <br />, "HELP DESK PARTICIPANTE"]} fontWeight="bold" fontSize="12px" textAlign="center" />
+                        <Typography text={["MÔNICA LOPES", <br />, "COORDENADORIA DE INTEGRIDADE E EXPERIÊNCIA"]} fontWeight="bold" fontSize="12px" textAlign="center" />
                     </Box>
                     <Box width="150px" direction="column" align="center" margin="20px 0"><Image src={card_7} alt="" width="150%" height="150%" />
                         <Typography text={["PAOLA SQUADRONI", <br />, "CLUBE DE LEITURA"]} fontWeight="bold" fontSize="12px" textAlign="center" />

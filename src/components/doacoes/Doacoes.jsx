@@ -17,34 +17,35 @@ function Doacoes() {
               <p>Desde já gostaríamos de agradecer pela sua doação e dizer que ela é fundamental, pois este ato de compaixão e amor ao próximo nos permitirá continuar a:
               </p>
             </div>
-            <div className='doacoes-icones'>
-              <Image src="/static/images/transformar.png" width="100%" height="100%" alt='' />
-              <Image src="/static/images/sorriso.png" width="100%" height="100%" alt='' />
-              <Image src="/static/images/paz.png" width="100%" height="100%" alt='' />
-            </div>
-            <div className='doacoes-texto-icones'>
-              <div>
-                <p>Transformar vidas</p>
-              </div>
-              <div>
-                <p>Gerar sorrisos</p>
-              </div>
-              <div>
-                <p>Promover a paz</p>
-              </div>
-            </div>
+
           </div>
           <div className='doacoes-image'>
-            <Image src="/static/images/doacoes.png" width="500%" height="100%" alt='' />
+            <Image src="/static/images/doacoes.png" width="421px" height="494px" alt='' />
           </div>
         </container>
+        <div>
+        </div>
+        <div className='doacoes-texto-icones doacoes-icones'>
+          <div className='text-center'>
+          <Image src="/static/images/transformar.png" width="100%" height="100%" alt='' />
+            <p className='display-6'>Transformar vidas</p>
+          </div>
+          <div className='text-center'>
+          <Image src="/static/images/sorriso.png" width="100%" height="100%" alt='' />
+            <p className='display-6'>Gerar sorrisos</p>
+          </div>
+          <div className='text-center'>
+          <Image src="/static/images/paz.png" width="100%" height="100%" alt='' />
+            <p className='display-6'>Promover a paz</p>
+          </div>
+        </div>
 
         <container>
-          <div className='doacoes-atraves'>
+          <div className='doacoes-atraves text-center'>
             <p>DOE ATRAVÉS</p>
 
           </div>
-          <div className='doacoes-empresas'>
+          <div className='doacoes-empresas my-3'>
             <div className='doacoes-pix'>
               <div>
                 <Image src="/static/images/pix.png" width="277%" height="92%" alt='' />
@@ -90,7 +91,7 @@ function Doacoes() {
       <Center>
         <container className="doacoes-contas">
           <a href='#'><p>Prestação de contas</p></a>
-          <div>  <Button href='/voluntarios' variant="light">Seja um voluntário</Button></div>
+          <div>  <Button style={{ border: '1px solid green', padding: "8px 16px" }} href='/voluntarios' variant="light" >Seja um voluntário</Button></div>
         </container>
       </Center>
     </>

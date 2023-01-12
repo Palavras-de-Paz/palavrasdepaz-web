@@ -14,6 +14,14 @@
 
 }
 
+.doacao-texto {
+  font-size: 24px;
+}
+
+.doacao-texto p {
+  margin: 96px 0;
+}
+
 .doacoes-icones {
   display: flex;
   justify-content: center;
@@ -31,7 +39,7 @@
   display: flex;
   justify-content: center;
   gap: 80px;
-  margin-left: -20px;
+  margin: 40px auto 80px auto;
 }
 
 .doacoes-atraves {
@@ -88,7 +96,7 @@
   margin-bottom: 56px;
   width: 1416px;
   max-width: 100%;
-  margin: 40px auto;
+  margin: 88px auto 62px auto;
 }
 
 .doacoes-banner-texto{

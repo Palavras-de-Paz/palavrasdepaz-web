@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgba(33, 170, 133, 1);
-    --secondary-color: rgba(24, 202, 153, 1);
+    --secondary-color: #18ca99;
     --tertiary-color: rgba(15, 224, 170, 1);
     --quaternary-color: rgba(255, 255, 255, 1);
 }
@@ -32,18 +32,29 @@ div.banner-gradient {
     max-width: 100%;
     margin: 0 auto;
     height: 176px;
-    background: rgba(33, 170, 133, 0.8);
+    background: #21aa85cc;
     background: -webkit-linear-gradient(to right, rgba(33, 170, 133, 0.8), #0FE0AA);
     background: linear-gradient(to right, rgba(33, 170, 133, 0.8), #0FE0AA);
     font-weight: normal;
 }
 
 .modal-content {
-    bottom: -250px;
+    bottom: -160px;
+    max-width: 100%;
+    width: 470px;
 }
 
 div.modal-header {
     background-color: var(--primary-color);
     color: var(--quaternary-color);
+    align-items: flex-start;
+   padding-left: 40px;
+}
+
+.btn-close {
+  border: 1px solid black;
+  border-radius: 0;
+  filter: invert();
+  width: 20px;
 }
 

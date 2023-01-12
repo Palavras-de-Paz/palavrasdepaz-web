@@ -32,10 +32,10 @@ export default function SwiperJs() {
 
     return (
         <Box direction="column">
-           <> <h1 style={{textAlign:"center", margin:"0 0 40px 0", fontFamily:"Baloo, cursive", textTransform: "uppercase"}}>parceiros</h1></>
+            <> <h1 style={{ textAlign: "center", fontWeight: "700", margin: "0 0 40px 0", fontFamily: "Baloo, cursive", textTransform: "uppercase" }}>parceiros</h1></>
             <Swiper
-            style={{justifyContent: 'center', width: '100%'}}
-                spaceBetween={1}
+                style={{ paddingLeft: "40px", paddingRight: "25px", alignItems: "center", justifyContent: 'center', width: '100%', margin: "40px 0" }}
+                spaceBetween={48}
                 centeredSlides={true}
                 navigation={true}
                 modules={[Pagination, Navigation]}
@@ -52,63 +52,63 @@ export default function SwiperJs() {
 
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_6} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_6} alt="" />
 
                 </SwiperSlide>
 
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_4} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_4} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_11} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_11} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_12} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_12} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_14} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_14} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_15} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_15} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_16} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_16} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_17} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_17} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_18} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_18} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_19} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_19} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_20} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_20} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <Image width={200} height={200} className="swiperImg" src={image_21} alt="" />
+                    <Image width={150} height={150} className="swiperImg" src={image_21} alt="" />
 
                 </SwiperSlide>
             </Swiper>

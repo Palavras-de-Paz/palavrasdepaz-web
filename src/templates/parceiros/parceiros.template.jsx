@@ -23,10 +23,10 @@ export default function ParceirosTemplate() {
             </div>
 
             <Center>
-            <Box width="80%" margin="auto" direction="column">
+            <Box width="88%" margin="auto" direction="column">
 
                 <div>
-                    <Typography margin="24px 0" fontSize="32px" align="start" text="Temos como objetivo, através de nosso programa, ajudar as pessoas a acessarem suas ferramentas internas para  encontrar a própria paz. A principal maneira que estamos disseminando o programa é a partir de parcerias com instituições de todos os setores, como, por exemplo:" />
+                    <Typography margin="80px 0 80px 0" fontSize="24px" align="start" text="Temos como objetivo, através de nosso programa, ajudar as pessoas a acessarem suas ferramentas internas para  encontrar a própria paz. A principal maneira que estamos disseminando o programa é a partir de parcerias com instituições de todos os setores, como, por exemplo:" />
                 </div>
 
                 <Box justify="space-around" flexWrap="wrap">
@@ -63,25 +63,27 @@ export default function ParceirosTemplate() {
                     </Box>
 
                 </Box>
+                <div>
+                    <Typography margin="80px 0 40px 0" fontSize="24px" align="start" text="O Programa é uma série de workshops que ajudam as pessoas a descobrirem a própria força interior e paz pessoal, sendo encorajados a compartilharem seus entendimentos sobre os temas e escreverem suas reflexões. Dando assim, a oportunidade de refletirem sobre si mesmo e sobre seus recursos interiores como    escolha, esperança e dignidade." />
+                </div>
 
                 <Box direction="column" justify="center" align="center" gap="8px" margin="24px auto">
                     <Image  src={banner} alt="" />
-                    <Typography text="Nosso parceiro: Opentext" fontSize="16px" color="#707070" />
                 </Box>
 
             </Box>
 
             <Box width="70%" margin="auto" direction="column" align="center" justify="center" textAlign="center">
                 <div>
-                    <Typography fontWeight="700" margin="24px 0" fontSize="32px" text="Ficaremos muito felizes com a possibilidade de trabalharmos juntos e sermos parceiros nessa jornada de resgate da humanidade!" />
+                    <Typography fontWeight="700" margin="0 0 40px 0" fontSize="24px" text="Ficaremos muito felizes com a possibilidade de trabalharmos juntos e sermos parceiros nessa jornada de resgate da humanidade!" />
                 </div>
-                <Button fontWeight="600" text="Fale diretamente com o presidente da ONG" justify="center" width="550px" height="56px" color="black" bg="#B4EFE0" href="https://wa.me/5511999756554" />
+                <Button margin="0 0 20px 0" fontWeight="600"  text="Fale diretamente com o presidente da ONG" justify="center" width="55vw" height="56px" color="black" bg="#B4EFE0" href="https://wa.me/5511999756554" />
 
             </Box>
 
             <Box justify="center" padding="0 0 32px 0 " gap="48px" margin="24px 0">
-                <Button href="/programa" justify="center" width="200px" height="48px" color="black" text="Mais Depoimentos" />
-                <Button href="/doacao" justify="center" width="200px" height="48px" color="black" text="Galeria de Fotos" />
+                <Button href="/depoimentos" justify="center" textAlign="center" width="200px" height="48px" color="black" text="Mais Depoimentos" />
+                <Button href="/galeria" justify="center" textAlign="center" width="200px" height="48px" color="black" text="Galeria de Fotos" />
             </Box>
 
             </Center>

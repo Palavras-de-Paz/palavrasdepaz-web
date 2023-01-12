@@ -26,14 +26,13 @@ export default function FixedButton() {
       >
         <Modal.Header closeButton>
           <Box display="flex" direction="column">
-
-            <Modal.Title id="example-modal-sizes-title-sm" className="m-auto">
+            <Modal.Title id="example-modal-sizes-title-sm" className="text-center mt-4">
               CONTATO
             </Modal.Title>
             <div>
-              <p>
+              <p className="text-center">
                 <br />Fique à vontade.
-                <br />Retornaremos em breve.</p>
+                Retornaremos em breve.</p>
             </div>
           </Box>
         </Modal.Header>
@@ -62,6 +61,7 @@ export default function FixedButton() {
       </Modal>
 
       <Modal
+        style={{ width: "476px" }}
         size="lg"
         show={lgShow}
         onHide={() => setLgShow(false)}

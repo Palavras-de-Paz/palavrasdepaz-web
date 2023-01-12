@@ -11,3 +11,7 @@
     border-radius: 50% !important;
     border: 3px solid  #21AA85 !important;
 }
+
+::after {
+    color:  var(--primary-color) !important;
+}	

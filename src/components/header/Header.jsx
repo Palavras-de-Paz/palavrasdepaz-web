@@ -17,13 +17,13 @@ function Header() {
                   <Image style={{ cursor: 'pointer'}} src={Logo} alt="logo-header" width="333px" height="150px" />
                 </Link>
               </div>
-              <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+              <Navbar.Toggle style={{border: "1px solid var(--primary-color)", color: "white"}} aria-controls={`offcanvasNavbar-expand-${expand}`} />
               <Navbar.Offcanvas
                 id={`offcanvasNavbar-expand-${expand}`}
                 aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                 placement="end"
               >
-                <Offcanvas.Header closeButton>
+                <Offcanvas.Header style={{background: "var(--primary-color)"}} closeButton>
                   <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                     MENU
                   </Offcanvas.Title>

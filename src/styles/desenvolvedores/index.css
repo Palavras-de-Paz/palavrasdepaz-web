@@ -3,6 +3,11 @@
   font-family: 'Baloo', cursive, Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 56px 48px 56px 48px;
+  max-width: 100%;
+} @media(max-width: 492px) {
+  .titulo-devs p {
+    font-size: 30px;
+  }
 }
 
 .primeiro-container{

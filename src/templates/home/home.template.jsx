@@ -47,7 +47,7 @@ quando as pessoas tiverem paz interior, o mundo estará em paz.´´"/>
         <SwiperJs />
 
         <Box align="center" justify="center" padding="32px">
-          <Button bg="rgba(33, 170, 133, 1)" color="white" href="" justify="center" width="200px" height="56px" text="Seja um parceiro" />
+          <Button bg="rgba(33, 170, 133, 1)" color="white" href="/parcerias" justify="center" width="200px" height="56px" text="Seja um parceiro" />
         </Box>
 
       </Center>

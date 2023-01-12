@@ -19,13 +19,14 @@ export const CardContent = styled.div`
     border: 1px solid rgba(24, 202, 153, 1);
     border-radius: 10px;
     width: 696px;
+    max-width: 100%;
     margin: 64px 0;
 `
 
 export const CardContainer = styled.div`
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 24px;
     @media (max-width: 1200px) {
         margin: 0 32px;
         flex-wrap: wrap;
